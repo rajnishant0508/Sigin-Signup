@@ -1,0 +1,92 @@
+.navbar-brand{
+     font-size:1rem !important;
+}
+
+
+/*corosol startr*/
+.carousel-caption{
+    padding-bottom:225px !important;
+}
+.carousel-caption h5{
+    text-transform:uppercase !important;
+	font-size:50px !important;
+}
+/*corosol end*/
+
+
+/* sticky follow us button css start*/
+
+
+
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:white;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+
+/* sticky follow us button css start*/
+
+
+/**/
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("./images/bg1.jpg");
+  min-height: 100%;
+}
+.caption {
+  
+  left: 0;
+  top: 0%;
+  color: #000;
+}
+
+
+/**/
+
